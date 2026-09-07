@@ -3,10 +3,10 @@ import { assets } from "../assets/assets";
 
 const Navbar = () => {
   return (
-    <div className="">
+    <div className="navbar p-4">
       <img src={assets.logo} alt="" className="logo" />
       <ul>
-        <li>Home</li>
+        <li className="text-blue-700">Home</li>
         <li>Menu</li>
         <li>Mobile-app</li>
         <li>Contact Us</li>
