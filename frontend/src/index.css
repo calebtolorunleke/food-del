@@ -1,4 +1,6 @@
 @import "tailwindcss";
+
+/* Custom overrides below  import */
 * {
   padding: 0;
   margin: 0;
