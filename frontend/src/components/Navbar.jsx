@@ -3,7 +3,7 @@ import { assets } from "../assets/assets";
 
 const Navbar = () => {
   return (
-    <div className="navbar py-4">
+    <div className="navbar py-5 flex justify-between items-center">
       <img src={assets.logo} alt="" className="logo" />
       <ul>
         <li className="">Home</li>
