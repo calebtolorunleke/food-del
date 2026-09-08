@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className="navbar p-4">
       <img src={assets.logo} alt="" className="logo" />
       <ul>
-        <li className="text-blue-700">Home</li>
+        <li className="">Home</li>
         <li>Menu</li>
         <li>Mobile-app</li>
         <li>Contact Us</li>
