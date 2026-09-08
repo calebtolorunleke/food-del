@@ -4,8 +4,8 @@ import { assets } from "../assets/assets";
 const Navbar = () => {
   return (
     <div className="navbar py-5 flex justify-between items-center">
-      <img src={assets.logo} alt="" className="logo" />
-      <ul>
+      <img src={assets.logo} alt="" className="logo w-[150px]" />
+      <ul className="flex list-none gap-[20px] text-[#49557e] text-[18px]">
         <li className="">Home</li>
         <li>Menu</li>
         <li>Mobile-app</li>
