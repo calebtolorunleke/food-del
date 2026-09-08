@@ -11,13 +11,15 @@ const Navbar = () => {
         <li>Mobile-app</li>
         <li>Contact Us</li>
       </ul>
-      <div className="navbar-right">
+      <div className="navbar-right flex items-center gap-[40px]">
         <img src={assets.search_icon} alt="" />
         <div className="navbar-search-icon">
           <img src={assets.basket_icon} alt="" />
           <div className="dot"></div>
         </div>
-        <button>Sign In</button>
+        <button className="bg-traanpsarenet text-[16px] text-[#49557e]">
+          Sign In
+        </button>
       </div>
     </div>
   );
