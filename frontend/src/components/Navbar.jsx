@@ -7,10 +7,9 @@ const Navbar = () => {
       <img src={assets.logo} alt="" className="logo w-[150px]" />
       <ul className="flex list-none gap-[20px] text-[#49557e] text-[18px]">
         <li className="">Home</li>
-        <li>Menu</li>
-        <li>Mobile-app</li>
-        <li>Contact Us</li>
-        <li></li>
+        <li className="">Menu</li>
+        <li className="">Mobile-app</li>
+        <li className="">Contact Us</li>
       </ul>
       <div className="navbar-right flex items-center gap-[40px]">
         <img src={assets.search_icon} alt="" />
