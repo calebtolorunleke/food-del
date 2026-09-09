@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap");
 
 @import "tailwindcss";
 
 /* Custom overrides below  import */
 * {
-  padding: 0;
-  margin: 0;
   box-sizing: border-box;
   font-family: outfit;
 }
@@ -19,7 +17,12 @@ a {
   color: inherit;
 }
 
-.app{
+.app {
   width: 80%;
   margin: auto;
+}
+
+.active {
+  padding-bottom: 2px;
+  border-bottom: 2px solid #49557e;
 }
