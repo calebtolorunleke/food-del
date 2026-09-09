@@ -38,11 +38,11 @@ const Navbar = () => {
       <div className="navbar-right flex items-center gap-[40px]">
         <img src={assets.search_icon} alt="" />
 
-        <div className="navbar-search-icon">
+        <div className="navbar-search-icon relative">
           <img src={assets.basket_icon} alt="" />
-          <div className="dot"></div>
-        </div>
 
+          <div className="absolute w-[10px] h-[10px] bg-red-500 rounded-full top-[-5px] right-[-5px]"></div>
+        </div>
         <button className="bg-transparent  text-[#49557e] border border-red-500 py-1 px-3 rounded-full cursor-pointer hover:bg-[#fff4f2] transition duration-300 ">
           Sign In
         </button>
