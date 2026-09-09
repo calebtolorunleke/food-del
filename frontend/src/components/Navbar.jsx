@@ -11,6 +11,10 @@ const Navbar = () => {
         <li>Mobile-app</li>
         <li>Contact Us</li>
         <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
       </ul>
       <div className="navbar-right flex items-center gap-[40px]">
         <img src={assets.search_icon} alt="" />
