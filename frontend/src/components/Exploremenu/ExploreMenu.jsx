@@ -8,7 +8,7 @@ const ExploreMenu = () => {
       <p className="exploremenu-text">
         Choose from a diverse menu featuring a delectable array of dishes.
       </p>
-      <div className="exploremenu-list">
+      <div className="exploremenu-list flex flex-col gap-[20px]">
         {menu_list.map((item, index) => {
           return (
             <div className="exploremenu-list-item" key={index}>
