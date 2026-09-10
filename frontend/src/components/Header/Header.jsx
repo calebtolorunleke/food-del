@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
   return (
     <div
-      className="header h-[34vw] my-[30px] bg-no-repeat bg-contain fade-in"
+      className="header relative h-[34vw] my-[30px] bg-no-repeat bg-contain fade-in"
       style={{ backgroundImage: `url("/header_img.png")` }}
     >
       <div className="header-content absolute flex flex-col items-start gap-[1.5vw] max-w-[50%] bottom-[10%] pl-[6vw]">
