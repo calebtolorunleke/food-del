@@ -1,10 +1,12 @@
 import React from "react";
 import Header from "../../components/Header/Header";
+import ExploreMenu from "../../components/Exploremenu/ExploreMenu";
 
 const Home = () => {
   return (
     <div>
       <Header />
+      <ExploreMenu />
     </div>
   );
 };
