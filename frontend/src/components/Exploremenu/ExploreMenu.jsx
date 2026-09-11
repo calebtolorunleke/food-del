@@ -10,7 +10,7 @@ const ExploreMenu = () => {
         mission is to satisfy your cravings and elevate your dining experience,
         one delicious meal at a time.
       </p>
-      <div className="exploremenu-list flex flex-row gap-[20px] justify-between items-center text-center my-[20px] overflow-x-auto">
+      <div className="exploremenu-list flex flex-row gap-[20px] justify-between items-center text-center my-[20px] overflow-x-auto scrollbar-hide">
         {menu_list.map((item, index) => {
           return (
             <div className="exploreMenu-list-item flex-shrink-0" key={index}>
@@ -18,13 +18,16 @@ const ExploreMenu = () => {
               <img
                 src={item.menu_image}
                 alt={item.menu_name}
-                className="w-[7.5vw] min-w-[7.5vw]"
+                className="w-[7.5vw] min-w-[7.5vw] cursor-pointer transition duration-200"
               />
-              <p>{item.menu_name}</p>
+              <p className="mt-3 text-[#747474]  cursor-pointer">
+                {item.menu_name}
+              </p>
             </div>
           );
         })}
       </div>
+      <hr className="my-[10px] h-[2px] text-[#e2e2e2]" />
     </div>
   );
 };
