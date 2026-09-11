@@ -16,7 +16,8 @@ const Header = () => {
           dishes, made with fresh ingredients and delivered straight to your
           door.
         </p>
-        <button className=" text-[#747474] py-[1vw] px-[2.3vw] bg-white rounded-4xl">
+
+        <button className="text-[#747474] py-[1vw] px-[2.3vw] bg-white rounded-full cursor-pointer transition-all duration-300 ease-in-out hover:bg-[#fcfcfc] hover:text-[#262626] hover:scale-105 shadow-sm">
           View Menu
         </button>
       </div>
