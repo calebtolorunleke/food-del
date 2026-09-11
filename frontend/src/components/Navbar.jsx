@@ -36,7 +36,7 @@ const Navbar = () => {
       </ul>
 
       <div className="navbar-right flex items-center gap-[40px]">
-        <img src={assets.search_icon} alt="" />
+        <img src={assets.search_icon} alt={assets.bag_icon} />
 
         <div className="navbar-search-icon relative">
           <img src={assets.basket_icon} alt="" />
