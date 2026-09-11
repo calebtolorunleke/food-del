@@ -36,10 +36,10 @@ const Navbar = () => {
       </ul>
 
       <div className="navbar-right flex items-center gap-[40px]">
-        <img src={assets.search_icon} alt={assets.bag_icon} />
+        <img src={assets.search_icon} alt="search icon" />
 
         <div className="navbar-search-icon relative">
-          <img src={assets.basket_icon} alt="" />
+          <img src={assets.basket_icon} alt="basket icon" />
 
           <div className="absolute w-[10px] h-[10px] bg-red-500 rounded-full top-[-5px] right-[-5px]"></div>
         </div>
