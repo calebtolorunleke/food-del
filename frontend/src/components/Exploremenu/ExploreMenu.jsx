@@ -13,7 +13,7 @@ const ExploreMenu = () => {
       <div className="exploremenu-list flex flex-row gap-[20px] justify-between items-center text-center my-[20px] overflow-x-auto">
         {menu_list.map((item, index) => {
           return (
-            <div className="exploremenu-list-item flex-shrink-0" key={index}>
+            <div className="exploreMenu-list-item flex-shrink-0" key={index}>
               {" "}
               <img
                 src={item.menu_image}
