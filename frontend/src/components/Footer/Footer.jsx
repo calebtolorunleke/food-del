@@ -38,7 +38,8 @@ const Footer = () => {
       </div>
       <hr />
       <p className="footer-copyright">
-        Copyright {Date.toString()} %; Tomato.com - All Right Reserved
+        Copyright {new Date().getFullYear()} &copy; Tomato.com - All Right
+        Reserved
       </p>
     </div>
   );
