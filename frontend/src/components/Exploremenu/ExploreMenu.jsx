@@ -26,7 +26,7 @@ const ExploreMenu = ({ category, setCategory }) => {
               <img
                 src={item.menu_image}
                 alt={item.menu_name}
-                className={`${category === item.menu_name ? "border-4 border-red-500 p-1:" : ""} w-[7.5vw] min-w-[7.5vw] rounded-full cursor-pointer transition duration-200`}
+                className={`${category === item.menu_name ? "border-4 border-red-500 p-1" : ""} w-[7.5vw] min-w-[7.5vw] rounded-full cursor-pointer transition duration-200`}
               />
               <p className="mt-3 text-[#747474]  cursor-pointer">
                 {item.menu_name}
