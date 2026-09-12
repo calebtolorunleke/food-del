@@ -13,7 +13,7 @@ const FoodDisplay = ({ category, setCategory }) => {
         {food_list.map((item, index) => (
           <FoodItem
             key={index}
-            id={item.id}
+            id={item._id}
             name={item.name}
             description={item.description}
             price={item.price}
