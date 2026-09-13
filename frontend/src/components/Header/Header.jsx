@@ -6,8 +6,8 @@ const Header = () => {
       className="header relative h-[34vw] my-[30px] bg-no-repeat bg-contain fade-in"
       style={{ backgroundImage: `url("/header_img.png")` }}
     >
-      <div className="header-content absolute flex flex-col items-start gap-[1.5vw] max-w-[50%] bottom-[10%] pl-[6vw]">
-        <h2 className="text-[60px] text-white font-semibold">
+      <div className="header-content absolute flex flex-col items-start gap-[1.5vw] max-w-[70%] lg:max-w-[50%] bottom-[10%] pl-[6vw]">
+        <h2 className="text-[30px] lg:text-[60px] text-white font-semibold">
           Order your favourite food here
         </h2>
 
