@@ -5,7 +5,7 @@ const Navbar = () => {
   const [menu, setMenu] = useState("home");
 
   return (
-    <div className="navbar py-5 flex justify-between items-center">
+    <div className="navbar py-5 flex justify-between items-center px-16">
       <img src={assets.logo} alt="" className="logo w-[150px]" />
 
       <ul className="flex list-none gap-[20px] text-[#49557e] text-[18px]">
