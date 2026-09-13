@@ -43,8 +43,8 @@ const LoginPopup = ({ setShowLogin }) => {
         <button className="p-[10px] rounded-md text-white bg-[tomato]">
           {currState === "Sign Up" ? "Create account" : "Login"}
         </button>
-        <div className="login-popup-conditio ">
-          <input type="checkbox" required />
+        <div className="login-popup-condition flex items-start gap-[8px]">
+          <input type="checkbox" required className="mt-[3px]" />
           <p>By continuing, I agree to the terms of use & privacy policy.</p>
         </div>
         {currState === "Login" ? (
@@ -52,7 +52,7 @@ const LoginPopup = ({ setShowLogin }) => {
             Create a new account?{" "}
             <span
               onClick={() => setCurrState("Sign up")}
-              className="cursor-pointer"
+              className="cursor-pointer text-[tomato] cursor-pointer"
             >
               Click here
             </span>
@@ -62,7 +62,7 @@ const LoginPopup = ({ setShowLogin }) => {
             Already have an account?{" "}
             <span
               onClick={() => setCurrState("Login")}
-              className="cursor-pointer"
+              className="cursor-pointer text-[tomato] cursor-pointer"
             >
               Login here
             </span>

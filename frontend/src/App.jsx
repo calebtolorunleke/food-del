@@ -11,7 +11,7 @@ const App = () => {
   const [showLogin, setShowLogin] = useState(false);
   return (
     <div className="scroll-smooth">
-      {showLogin ? <LoginPopup /> : <></>}
+      {showLogin ? <LoginPopup setShowLogin={setShowLogin} /> : <></>}
       <Navbar setShowLogin={setShowLogin} />
 
       <div className="mx-auto w-[80%]">
