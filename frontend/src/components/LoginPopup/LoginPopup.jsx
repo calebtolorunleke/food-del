@@ -40,8 +40,10 @@ const LoginPopup = ({ setShowLogin }) => {
             className="outline-none border border-[#c9c9c9] focus:border-[tomato] p-2 rounded-md transition-colors"
           />
         </div>
-        <button>{currState === "Sign Up" ? "Create account" : "Login"}</button>
-        <div className="login-popup-condition">
+        <button className="p-[10px] rounded-md text-white bg-[tomato]">
+          {currState === "Sign Up" ? "Create account" : "Login"}
+        </button>
+        <div className="login-popup-conditio ">
           <input type="checkbox" required />
           <p>By continuing, I agree to the terms of use & privacy policy.</p>
         </div>
