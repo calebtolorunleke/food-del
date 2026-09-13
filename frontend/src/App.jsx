@@ -8,7 +8,7 @@ import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
-    <>
+    <div className="scroll-smooth">
       <Navbar />
 
       <div className="mx-auto w-[80%]">
@@ -19,7 +19,7 @@ const App = () => {
         </Routes>
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 

@@ -47,14 +47,15 @@ const Navbar = () => {
           Mobile-app
         </a>
 
-        <Link
+        <a
           onClick={() => setMenu("contact-us")}
+          href="#contact-us"
           className={`${
             menu === "contact-us" ? "active" : ""
           } cursor-pointer transition duration-300`}
         >
           Contact Us
-        </Link>
+        </a>
       </ul>
 
       {/* RIGHT SIDE */}

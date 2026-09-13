@@ -19,8 +19,9 @@ const Footer = () => {
         md:pt-16
         lg:pt-20
         mt-[80px]
-        md:mt-[100px]
+        md:mt-[100px] 
       "
+      id="contact-us"
     >
       <div
         className="
