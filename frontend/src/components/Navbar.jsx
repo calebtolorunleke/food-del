@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { assets } from "../assets/assets";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [menu, setMenu] = useState("home");
@@ -16,41 +17,44 @@ const Navbar = () => {
 
       {/* DESKTOP NAVIGATION */}
       <ul className="hidden md:flex list-none gap-5 lg:gap-8 text-[#49557e] text-base lg:text-[18px]">
-        <li
+        <a
           onClick={() => setMenu("home")}
+          href="/"
           className={`${
             menu === "home" ? "active" : ""
           } cursor-pointer transition duration-300`}
         >
           Home
-        </li>
+        </a>
 
-        <li
+        <a
           onClick={() => setMenu("menu")}
+          href="#explore-menu"
           className={`${
             menu === "menu" ? "active" : ""
           } cursor-pointer transition duration-300`}
         >
           Menu
-        </li>
+        </a>
 
-        <li
+        <a
           onClick={() => setMenu("mobile-app")}
+          href="#app-download"
           className={`${
             menu === "mobile-app" ? "active" : ""
           } cursor-pointer transition duration-300`}
         >
           Mobile-app
-        </li>
+        </a>
 
-        <li
+        <Link
           onClick={() => setMenu("contact-us")}
           className={`${
             menu === "contact-us" ? "active" : ""
           } cursor-pointer transition duration-300`}
         >
           Contact Us
-        </li>
+        </Link>
       </ul>
 
       {/* RIGHT SIDE */}
