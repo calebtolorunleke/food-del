@@ -2,7 +2,7 @@ import { useState } from "react";
 import { assets } from "../assets/assets";
 import { Link } from "react-router-dom";
 
-const Navbar = ({setShowLogin}) => {
+const Navbar = ({ setShowLogin }) => {
   const [menu, setMenu] = useState("home");
   const [mobileMenu, setMobileMenu] = useState(false);
 
@@ -24,7 +24,7 @@ const Navbar = ({setShowLogin}) => {
             menu === "home" ? "active" : ""
           } cursor-pointer transition duration-300`}
         >
-          Home
+          Home Home
         </a>
 
         <a
@@ -79,12 +79,12 @@ const Navbar = ({setShowLogin}) => {
         </div>
 
         {/* SIGN IN - HIDDEN ON SMALL MOBILE */}
-   <button
-  onClick={() => setShowLogin(true)}
-  className="hidden sm:block bg-transparent text-sm lg:text-base text-[#49557e] border border-[tomato] py-2 px-6 rounded-full cursor-pointer hover:bg-[#fff4f2] transition duration-300"
->
-  Sign In
-</button>
+        <button
+          onClick={() => setShowLogin(true)}
+          className="hidden sm:block bg-transparent text-sm lg:text-base text-[#49557e] border border-[tomato] py-2 px-6 rounded-full cursor-pointer hover:bg-[#fff4f2] transition duration-300"
+        >
+          Sign In
+        </button>
 
         {/* MOBILE MENU BUTTON */}
         <button
