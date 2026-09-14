@@ -24,7 +24,7 @@ const Navbar = ({ setShowLogin }) => {
             menu === "home" ? "active" : ""
           } cursor-pointer transition duration-300`}
         >
-          Home Home Home Home
+          Home Home Home
         </a>
 
         <a
